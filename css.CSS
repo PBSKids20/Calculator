@@ -3,21 +3,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     background-color: hsl(0, 0%, 95%);
+    background-position: translate(25%, 25%s);
+    background-size: 100%;
+    background-image: url("https://images.unsplash.com/photo-1476610182048-b716b8518aae?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D?raw=true");
+    zoom: 50%;
 }
 
 #calculator {
     font-family: Arial, sans-Serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
-    max-width: 500px;
+    max-width: 20%;
     overflow: hidden;
-    
+    transform: translate(0%, 50%);    
 }
 
 #display {
-    width: 100%;
+    width: 500px;
     padding: 20px;
     font-size: 5rem;
     text-align: left;
